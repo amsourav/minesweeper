@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://amsourav.github.io/minesweeper",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "sourav sarkar",
   "license": "MIT",
