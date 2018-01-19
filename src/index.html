@@ -8,6 +8,19 @@
     <title>Mine Sweeper</title>
 </head>
 <body>
+    <h1>Minesweeper</h1>
+    <div>
+        <h2>Game variables</h2>
+        <form id="varForm" onsubmit="window.handleFormSubmit">
+            <label for="row">Row</label>
+            <input name="row" type="text" />
+            <label for="column">Column</label>
+            <input name="column" type="text" />
+            <label for="mines">Mines</label>
+            <input name="mines" type="text" />
+            <button type="submit">Generate</button>
+        </form>
+    </div>
     <table id="minesweeper"></table>
 </body>
 <script src="./index.js"></script>
