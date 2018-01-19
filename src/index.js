@@ -223,7 +223,7 @@ class Board {
                 if (boardState[i][j] !== -1) {
                     boardState[i][j] = this.openTile(i, j);
                 } else {
-                    const e = getCell(i,j)
+                    const e = this.getCell(i,j)
                     e.setAttribute('class', 'cell bomb');
                 }
             }

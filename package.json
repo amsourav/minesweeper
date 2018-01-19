@@ -6,7 +6,10 @@
   "homepage": "https://amsourav.github.io/minesweeper",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf docs",
+    "build": "parcel build src/index.html --out-dir=docs",
+    "publish-doc": "git add . && git commit -m \"Update\" && git push origin master"
   },
   "author": "sourav sarkar",
   "license": "MIT",
