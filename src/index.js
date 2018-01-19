@@ -217,7 +217,7 @@ class Board {
     }
 
     gameOverBoard() {
-        const { m, n } = this
+        const { m, n, boardState } = this
         for (var i = 0; i < m; i++) {
             for (var j = 0; j < n; j++) {
                 if (boardState[i][j] !== -1) {
